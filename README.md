@@ -1,14 +1,18 @@
 # Linear Regression
 
-My hands-on implementation of Linear Regression as part of my Data Science and Machine Learning learning journey.
+My hands-on implementation of Linear Regression and Multiple Linear Regression as part of my Data Science and Machine Learning learning journey.
 
 ## Concepts Covered
+
 - Introduction to Linear Regression
 - Simple and Multiple Linear Regression
-- Independent variables, dependent variables, slope, and intercept
-- Best-fit line and Least Squares method
-- Linear Regression applications
+- Independent and dependent variables
+- Slope, intercept, and regression coefficients
+- Best-fit line and Ordinary Least Squares (OLS)
 - Model training and prediction
+- Model evaluation metrics
+- Residual analysis
+- Multicollinearity and Variance Inflation Factor (VIF)
 
 ## Case Studies
 
@@ -25,18 +29,37 @@ My hands-on implementation of Linear Regression as part of my Data Science and M
 - Understand model coefficients (slope) and intercept.
 - Generate predictions for individual and multiple new footfall values.
 
+### 3. Advertising Sales Prediction — Multiple Linear Regression
+- Predict sales using TV, Radio, and Newspaper advertising budgets.
+- Explore relationships between advertising channels and sales.
+- Perform correlation analysis and visualize relationships using a heatmap.
+- Check multicollinearity using Variance Inflation Factor (VIF).
+- Split data into training and testing sets.
+- Train a Multiple Linear Regression model.
+- Generate predictions and compare actual vs predicted sales.
+- Evaluate model performance using regression metrics.
+
 ## Technologies Used
+
 - Python
 - Jupyter Notebook
 - Pandas
+- NumPy
 - Matplotlib
+- Seaborn
 - Statsmodels
 - Scikit-learn
 
 ## Repository Structure
-- `Linear_Regression.ipynb` — concepts, code implementations, case studies, and predictions.
+
+- `01_Linear_Regression.ipynb` — Simple Linear Regression concepts and case studies.
+- `02_Multiple_Linear_Regression.ipynb` — Multiple Linear Regression concepts, implementation, and evaluation.
+- `General_Stores.csv` — Dataset for store sales prediction.
+- `NewspaperData.csv` — Dataset for newspaper circulation prediction.
+- `advertising.csv` — Dataset for advertising sales prediction.
 
 ## Learning Objective
-Build a practical understanding of Linear Regression by applying it to real-world-style prediction problems and learning how to train, interpret, and use regression models.
+
+Build a practical understanding of regression models by applying them to real-world-style prediction problems, interpreting model results, evaluating performance, and understanding the fundamentals of machine learning.
 
 *Learning step by step, one model at a time.* 🚀
